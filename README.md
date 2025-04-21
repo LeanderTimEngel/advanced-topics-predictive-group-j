@@ -14,14 +14,20 @@ python3 -m venv venv
 
 # Activate the virtual environment
 source venv/bin/activate
+
+# Upgrade pip to latest version
+pip install --upgrade pip
 ```
 
 ### Dependencies
 The project requires the following libraries:
 ```bash
-# Core ML frameworks
-pip install torch torchvision torchaudio     # PyTorch ecosystem
-pip install transformers                     # HuggingFace Transformers
+# Core ML frameworks (choose one or both)
+# PyTorch ecosystem
+pip install torch torchvision torchaudio
+
+# TensorFlow/Keras ecosystem
+pip install tensorflow keras
 
 # Speech-to-Text
 pip install openai-whisper                   # Whisper STT
@@ -37,7 +43,7 @@ pip install matplotlib                       # Plotting
 pip install flask                            # Web demo
 
 # Or install everything at once
-pip install torch torchvision torchaudio transformers openai-whisper langchain openai anthropic numpy pandas scikit-learn jiwer matplotlib flask
+pip install torch torchvision torchaudio transformers openai-whisper langchain openai anthropic numpy pandas scikit-learn jiwer matplotlib flask tensorflow keras
 ```
 
 ## Project Structure
