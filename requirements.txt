@@ -1,0 +1,29 @@
+# Core Data Science and ML
+tensorflow>=2.16.0
+keras>=3.9.0
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.6.0
+matplotlib>=3.9.0
+tqdm>=4.67.0
+
+# NLP and Transformers
+nltk>=3.9.0
+transformers>=4.51.0
+datasets>=3.6.0
+evaluate>=0.4.0
+
+# Speech-to-Text
+openai-whisper>=20240328
+
+# LLM Integration
+langchain>=0.3.0
+openai>=1.8.0
+anthropic>=0.5.1
+
+# Web Interface
+flask>=3.0.0
+
+# Development & Notebooks
+ipykernel>=6.29.0
+jupyter>=1.0.0 
