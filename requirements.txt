@@ -1,29 +1,35 @@
-# Core Data Science and ML
-tensorflow>=2.16.0
-keras>=3.9.0
-numpy>=1.26.0
-pandas>=2.2.0
-scikit-learn>=1.6.0
-matplotlib>=3.9.0
-tqdm>=4.67.0
+# ─────────── Core data-science & ML ───────────
+tensorflow~=2.16          # you trained with 2.16.x
+keras~=3.9                # match TensorFlow build (3.9.x)
+numpy~=1.26
+pandas~=2.2
+scikit-learn~=1.6
+matplotlib~=3.9
+tqdm~=4.67
 
-# NLP and Transformers
-nltk>=3.9.0
-transformers>=4.51.0
-datasets>=3.6.0
-evaluate>=0.4.0
+# ─────────── NLP & Transformers ───────────
+nltk~=3.9
+transformers~=4.51
+datasets~=3.6
+evaluate~=0.4
 
-# Speech-to-Text
-openai-whisper>=20240328
+# ─────────── Speech-to-Text ───────────
+openai-whisper~=2024.3    # March 2024 release family
+torch~=2.2
+whisper~=2024.03
+librosa~=0.10
+soundfile~=0.12
 
-# LLM Integration
-langchain>=0.3.0
-openai>=1.8.0
-anthropic>=0.5.1
+# ─────────── LLM Integration ───────────
+langchain~=0.3
+openai~=1.8
+anthropic~=0.5            # 0.5.x covers 0.5.1 you used
 
-# Web Interface
-flask>=3.0.0
+# ─────────── Web Interface ───────────
+flask~=3.0
 
-# Development & Notebooks
-ipykernel>=6.29.0
-jupyter>=1.0.0 
+# ─────────── Development & Notebooks ───────────
+ipykernel~=6.29
+jupyter~=1.0
+
+
