@@ -37,7 +37,6 @@ Navigate to the `project/notebooks` directory and run the Jupyter notebooks in s
 1. `01_text_models.ipynb` - Text-based sentiment analysis
 2. `02_whisper_integration.ipynb` - Speech-to-text integration
 3. `03_llm_comparison.ipynb` - Comparison of LLMs and traditional models
-4. `04_audio_streaming.ipynb` - Real-time audio processing
 
 ## Project Structure
 ```
@@ -62,25 +61,9 @@ advanced-topics-predictive-group-j/
 │   ├── notebooks/            # Jupyter notebooks for experimentation
 │   │   ├── 01_text_models.ipynb          # Text-based sentiment analysis
 │   │   ├── 02_whisper_integration.ipynb  # Speech-to-text integration
-│   │   ├── 03_llm_comparison.ipynb       # LLM vs traditional models comparison
-│   │   └── 04_audio_streaming.ipynb      # Real-time audio processing
+│   │   └── 03_llm_comparison.ipynb       # LLM vs traditional models comparison
 │   │
 │   └── src/                  # Source code (production-ready)
-│       ├── text_analysis/    # Text analysis modules
-│       │   ├── __init__.py   # Package initialization
-│       │   └── models.py     # LSTM model implementation
-│       │
-│       ├── speech_analysis/  # Speech analysis modules
-│       │   ├── __init__.py   # Package initialization
-│       │   └── whisper_processor.py  # Whisper integration
-│       │
-│       ├── llm_integration/  # LLM integration modules
-│       │   ├── __init__.py   # Package initialization
-│       │   └── llm_analyzer.py  # LangChain integration
-│       │
-│       └── web_interface/    # Flask web interface
-│           ├── __init__.py   # Package initialization
-│           └── app.py        # Flask application
 │
 ├── requirements.txt          # Project dependencies
 └── Advanced Predictive Analytics.pdf  # Project assignment specification
@@ -164,15 +147,6 @@ analyzer = LLMSentimentAnalyzer(provider="openai")
 # Analyze sentiment
 result = analyzer.analyze("I absolutely love this new camera!")
 ```
-
-## Contributing
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 This project is part of the Advanced Topics in Predictive Analytics course.
