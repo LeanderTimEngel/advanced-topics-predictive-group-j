@@ -1,0 +1,30 @@
+filename,transcribed_text,emotion,llm_emotion
+custom-angry-A-1-Jannik.wav, Is this infuriating? I can't believe it.,angry,anger
+custom-angry-A-1-Marc.wav, This is infuriating. I can't believe it.,angry,anger
+custom-angry-A-1-paul.wav, This is infuriating. I can't believe it!,angry,anger
+custom-angry-A-2-Jannik.wav," This isn't furorating, I can't believe it.",angry,neutral
+custom-angry-B-1-Jannik.wav, I'm so mad you ignored my calls.,angry,anger
+custom-angry-B-1-paul.wav, I'm so mad you ignored my calls.,angry,anger
+custom-angry-B-2-Marc.wav, I'm so mad you ignored my calls.,angry,anger
+custom-happy-A-1-Jannik.wav, I'm so happy we finally got a job.,happy,joy
+custom-happy-A-1-Marc.wav, I'm so happy we finally got the job.,happy,joy
+custom-happy-A-1-paul.wav, I'm so happy we finally got the job.,happy,joy
+custom-happy-A-2-Jannik.wav, I'm so happy we finally got a job.,happy,joy
+custom-happy-B-1-Jannik.wav, That cake tastes awesome.,happy,joy
+custom-happy-B-1-paulm4a.wav, That cake tastes awesome!,happy,joy
+custom-happy-B-2-Marc.wav, That cake tastes awesome.,happy,joy
+custom-neutral-A-1-Jannik.wav, Then meeting starts at 10.,neutral,neutral
+custom-neutral-A-1-Marc.wav, The meeting starts at 10.,neutral,neutral
+custom-neutral-A-1-paul.wav, The meeting starts at 10.,neutral,neutral
+custom-neutral-A-2-Jannik.wav, The meeting starts at 10.,neutral,neutral
+custom-neutral-B-1-Jannik.wav, Please put the keys on the table.,neutral,neutral
+custom-neutral-B-1-paul.wav, Please put the keys on the table.,neutral,neutral
+custom-neutral-B-2-Marc.wav, Please put the keys on the table.,neutral,neutral
+custom-sad-A-1-Jannik.wav, I feel really sad about the news today.,sad,sad
+custom-sad-A-1-Marc.wav, I feel really sad about the news today.,sad,sad
+custom-sad-A-1-paul.wav, I feel really sad about the news today.,sad,sad
+custom-sad-A-2-Jannik.wav, I feel really sad about the news today.,sad,sad
+custom-sad-B-1-Jannik.wav, It's heartbreaking to see them leave.,sad,sad
+custom-sad-B-1-paul.wav, It's heartbreaking to see them leave.,sad,sad
+custom-sad-B-2-Jannik.wav, It's heartbreaking to see them leave.,sad,sad
+custom-sad-B-2-Marc.wav, It's heartbreaking to see them leave.,sad,sad
