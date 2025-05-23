@@ -1,35 +1,45 @@
 # ─────────── Core data-science & ML ───────────
-tensorflow~=2.16          # you trained with 2.16.x
-keras~=3.9                # match TensorFlow build (3.9.x)
-numpy~=1.26
-pandas~=2.2
-scikit-learn~=1.6
-matplotlib~=3.9
-tqdm~=4.67
+tensorflow~=2.16          # Deep learning framework for BiLSTM, CNN, Transformer
+keras~=3.9                # High-level neural networks API
+numpy~=1.26               # Numerical computing
+pandas~=2.2               # Data manipulation and analysis
+scikit-learn~=1.6         # Machine learning metrics and utilities
+matplotlib~=3.9           # Plotting library
+seaborn~=0.13             # Statistical data visualization
+tqdm~=4.67                # Progress bars
 
-# ─────────── NLP & Transformers ───────────
-nltk~=3.9
-transformers~=4.51
-datasets~=3.6
-evaluate~=0.4
+# ─────────── NLP & Text Processing ───────────
+nltk~=3.9                 # Natural language toolkit
+transformers~=4.51        # Hugging Face transformers (if needed for tokenization)
+datasets~=3.6             # Dataset loading utilities
+evaluate~=0.4             # Evaluation metrics
 
-# ─────────── Speech-to-Text ───────────
-openai-whisper~=2024.3    # March 2024 release family
-torch~=2.2
+# ─────────── Speech-to-Text & Audio ───────────
+openai-whisper~=20231117  # OpenAI Whisper for speech transcription
+torch~=2.2                # PyTorch backend for Whisper
 whisper~=2024.03
-librosa~=0.10
-soundfile~=0.12
+librosa~=0.10             # Audio analysis library
+soundfile~=0.12           # Audio file I/O
 
 # ─────────── LLM Integration ───────────
-langchain~=0.3
-openai~=1.8
-anthropic~=0.5            # 0.5.x covers 0.5.1 you used
+langchain~=0.3            # LLM framework for GPT-4o-mini integration
+langchain-openai~=0.2     # OpenAI integration for LangChain
+openai~=1.8               # OpenAI API client
+python-dotenv~=1.0        # Environment variable management for API keys
 
-# ─────────── Web Interface ───────────
-flask~=3.0
+# ─────────── Optional: Additional LLM Providers ───────────
+anthropic~=0.5            # Anthropic Claude API (optional)
+
+# ─────────── Web Interface (Future) ───────────
+flask~=3.0                # Web framework for potential demo interface
 
 # ─────────── Development & Notebooks ───────────
-ipykernel~=6.29
-jupyter~=1.0
+ipykernel~=6.29           # Jupyter kernel
+jupyter~=1.0              # Jupyter notebook environment
+notebook~=7.0             # Jupyter notebook interface
+
+# ─────────── Additional Utilities ───────────
+python-json-logger~=2.0   # JSON logging for structured logs
+regex~=2023.12            # Regular expressions (often used with text processing)
 
 
